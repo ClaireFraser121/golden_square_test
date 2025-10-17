@@ -17,7 +17,7 @@ _Include the initializer, public properties, and public methods with all paramet
 
 ```python
 class PhoneBook():
-    def extract_numbers(diary_entry):
+    def extract_numbers(self, diary_entry):
         # Parameters:
         #   diary_entry: (str) a human-readable text, possibly with phone nos
         # Returns nothing
